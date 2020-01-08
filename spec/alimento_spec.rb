@@ -1,5 +1,6 @@
 require './lib/huella_ambiental'
 
+
 RSpec.describe Alimento do
   before (:all) do
     @hash_carne_vaca = {nombre: "carne_vaca", proteinas: 21.1, carbohidratos: 0.0, lipidos: 3.1, co2: 50.0, terreno: 164.0, cantidad: 1.0}
